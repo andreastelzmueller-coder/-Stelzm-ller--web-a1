@@ -1,13 +1,14 @@
-<ul> id="liste-linz"
-<script>
-  // Lokale Daten
-  const stadtteile = ["Urfahr", "Innere Stadt", "Bindermichel"];
-  const liste = document.getElementById("liste-linz");
-  stadtteile.forEach(s => {
-    let li = document.createElement("li");
-    li.textContent = s;
-    liste.appendChild(li);
-  });
-</script>
+ <ul id="liste-linz"></ul>
 
-</ul>
+  <script>
+    // Lokale Daten
+    const stadtteile = ["Urfahr", "Innere Stadt", "Bindermichel"];
+
+    const liste = document.getElementById("liste-linz");
+
+    stadtteile.forEach(s => {
+      let li = document.createElement("li");
+      li.textContent = s;
+      liste.appendChild(li);
+    });
+  </script>
